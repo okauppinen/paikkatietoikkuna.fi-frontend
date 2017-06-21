@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Titillium Web Regular 400";
+  src: url("../resources/fonts/TitilliumWeb-Regular.ttf"); 
+}
+
+body {
+	background: url(../resources/images/background_image.jpg);
+	background-size: cover;
+}
+
+.container.main {
+	padding-right: 100px;
+	padding-left: 100px;
+	background: transparent;
+	font-family: "Titillium Web Regular 400";
+}
+
+.main-text p {
+	font-size: 24px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.main-text a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.main-text a:hover {
+	color: #FFFFFF;
+}
+
+.logo {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.logo_image {
+	height: 70px;
+	display: block;
+    margin: auto;
+}
+
+.link-panels {
+	margin-top: 100px;
+}
+
+.panel {
+	height: 300px;
+}
+
+.panel.map-panel {
+	background-color: #ffdc00;
+	padding: 30px;
+	border-radius: 0px;
+	color: #333333;
+	font-size: 24px;
+	text-align: center;
+}
+
+.panel.sdi-panel {
+	background-color: #266b7f;
+	padding: 30px;
+	border-radius: 0px;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+}
+
+.btn.btn-default.maplink-btn {
+	background-color: transparent;
+	border-color: #333333;
+	color: #333333;
+	font-size: 24px;
+}
+
+.btn.btn-default.paikkislink-btn {
+	background-color: transparent;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.datalink {
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.datalink:hover {
+	color: #FFFFFF;
+}
+
+footer {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 50px;
+}
+
+.language-link {
+    text-decoration: underline;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.language-link:hover {
+	color: #FFFFFF;
+}
