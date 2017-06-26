@@ -9,14 +9,12 @@ body {
 }
 
 .container.main {
-	padding-right: 100px;
-	padding-left: 100px;
 	background: transparent;
 	font-family: "Titillium Web Regular 400";
 }
 
 .main-text p {
-	font-size: 24px;
+	font-size: 2.8vh;
 	color: #FFFFFF;
 	text-align: center;
 }
@@ -36,9 +34,7 @@ body {
 }
 
 .logo_image {
-	height: 70px;
-	display: block;
-    margin: auto;
+	width: 100%;
 }
 
 .link-panels {
@@ -46,7 +42,7 @@ body {
 }
 
 .panel {
-	height: 300px;
+	min-height: 300px;
 }
 
 .panel.map-panel {
@@ -54,7 +50,7 @@ body {
 	padding: 30px;
 	border-radius: 0px;
 	color: #333333;
-	font-size: 24px;
+	font-size: 18px;
 	text-align: center;
 }
 
@@ -72,6 +68,8 @@ body {
 	border-color: #333333;
 	color: #333333;
 	font-size: 24px;
+	margin-top: 20px;
+	white-space: pre-wrap;
 }
 
 .btn.btn-default.paikkislink-btn {
@@ -80,6 +78,7 @@ body {
 	color: #FFFFFF;
 	font-size: 24px;
 	margin-bottom: 20px;
+	white-space: pre-wrap;
 }
 
 .datalink {
