@@ -14,9 +14,10 @@ body {
 }
 
 .main-text p {
-	font-size: 2.8vh;
+	font-size: 2.4vh;
 	color: #FFFFFF;
 	text-align: center;
+	word-wrap: break-word;
 }
 
 .main-text a {
@@ -29,16 +30,20 @@ body {
 }
 
 .logo {
-	margin-top: 100px;
-	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .logo_image {
 	width: 100%;
 }
 
+.margin {
+	height: 70px;
+}
+
 .link-panels {
-	margin-top: 100px;
+	margin-top: 20px;
 }
 
 .panel {
@@ -94,7 +99,7 @@ body {
 footer {
 	text-align: center;
 	font-size: 14px;
-	margin-top: 50px;
+	margin-bottom: 20px;
 }
 
 .language-link {
