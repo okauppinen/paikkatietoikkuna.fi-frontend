@@ -14,7 +14,7 @@ body {
 }
 
 .main-text p {
-	font-size: calc(0.75em + 1.0vh);
+	font-size: calc(0.60em + 1.0vh);
 	color: #FFFFFF;
 	text-align: center;
 	word-wrap: break-word;
