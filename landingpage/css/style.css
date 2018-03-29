@@ -142,6 +142,10 @@ body {
 	overflow: hidden;
 }
 
+.rss-link, .rss-link:hover {
+	color: #FFFFFF;
+}
+
 .btn.btn-default.maplink-btn {
 	background-color: transparent;
 	border-color: #333333;
