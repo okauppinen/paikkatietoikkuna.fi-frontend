@@ -140,6 +140,7 @@ body {
 
 .rss-list > li {
 	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .rss-link, .rss-link:hover {
