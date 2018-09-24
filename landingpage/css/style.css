@@ -10,6 +10,7 @@ html, body {
 body {
 	background: url(../resources/images/background_image.jpg);
 	background-size: cover;
+    color: #FFFFFF;
 }
 
 .container.main {
@@ -24,13 +25,8 @@ body {
 	word-wrap: break-word;
 }
 
-.main-text a {
-	color: #FFFFFF;
-	text-decoration: underline;
-}
-
-.main-text a:hover {
-	color: #FFFFFF;
+a, a:hover, a:focus {
+    color: #FFFFFF;
 }
 
 .logo {
@@ -81,7 +77,6 @@ body {
 .panel.sdi-panel {
 	background-color: #266b7f;
 	border: 1px solid #205e70;
-	color: #FFFFFF;
 }
 
 .panel-body {
@@ -144,10 +139,6 @@ body {
 	text-decoration: inherit;
 }
 
-.rss-link, .rss-link:hover {
-	color: #FFFFFF;
-}
-
 .btn.btn-default.maplink-btn {
 	background-color: transparent;
 	border-color: #333333;
@@ -168,13 +159,8 @@ body {
 }
 
 .datalink {
-	color: #FFFFFF;
 	font-size: 18px;
 	line-height: 30px;
-}
-
-.datalink:hover {
-	color: #FFFFFF;
 }
 
 footer {
@@ -188,18 +174,17 @@ footer {
 	width: 40px;
 	margin: 20px;
 }
-
-.footer-text {
-	color: #FFFFFF;
+.some-link {
+    color: transparent;
 }
-
 .language-link {
     text-decoration: underline;
-    color: #FFFFFF;
     cursor: pointer;
     margin: 10px;
 }
-
-.language-link:hover {
-	color: #FFFFFF;
+.tos-link {
+    margin-bottom: 10px;
+}
+.tos-link a {
+    text-decoration: underline;
 }
